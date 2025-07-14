@@ -1,0 +1,11 @@
+{
+  "name": "ML Model App DevContainer",
+  "image": "mcr.microsoft.com/devcontainers/python:3.10",
+  "features": {},
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash"
+  },
+  "postCreateCommand": "pip install -r requirements.txt",
+  "forwardPorts": [8501],
+  "workspaceFolder": "/workspaces/ml-model-app"
+}
